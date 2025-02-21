@@ -8,13 +8,13 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-app.get('/bfhl', (req, res) => {
+app.get('/bajaj-backend', (req, res) => {
     res.status(200).json({
         operation_code: 1
     });
 });
 
-app.post('/bfhl', (req, res) => {
+app.post('/bajaj-backend', (req, res) => {
     const { data } = req.body;
 
 
